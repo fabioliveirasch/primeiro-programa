@@ -1,0 +1,24 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class Diferenca {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a, b, c, d, dif;
+		
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		d = sc.nextInt();
+		
+		dif = (a * b) - (c * d);
+		
+		System.out.println("A diferença dos produtos é: " + dif);
+		
+		sc.close();		
+	}
+}

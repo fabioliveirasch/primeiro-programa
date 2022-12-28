@@ -1,0 +1,105 @@
+package entities;
+
+public class Conta {
+
+	private int numero;
+	private String holder;
+	private double saldo;
+
+	public Conta(int numero, String holder) {
+		this.numero = numero;
+		this.holder = holder;
+	}
+	
+	public Conta(int numero, String holder, double saldo) {
+		this.numero = numero;
+		this.holder = holder;
+		this.saldo = saldo;
+	}
+
+
+
+
+
+
+
+	public double saldo() {
+		return saldo;
+	}
+
+	public double deposito(double operacao) {
+		return this.saldo + this.operacao;
+	}
+
+	public double saque() {
+		return saldo - operacao;
+	}
+
+	public int conta(int conta) {
+		return this.conta;
+	}
+
+	public String nome(String nome) {
+		return this.nome;
+	}
+
+	public String pergunta(String pergunta) {
+		return this.pergunta;
+	}
+
+	public double operacao() {
+		return operacao;
+	}
+
+	public double taxa() {
+		return taxa;
+	}
+
+	public int getConta() {
+		return conta;
+	}
+
+	public void setConta(int conta) {
+		this.conta = conta;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getPergunta() {
+		return pergunta;
+	}
+
+	public void setPergunta(String pergunta) {
+		this.pergunta = pergunta;
+	}
+
+	public double getOperacao() {
+		return operacao;
+	}
+
+	public void setOperacao(double operacao) {
+		this.operacao = operacao;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public double getTaxa() {
+		return taxa;
+	}
+
+	public void setTaxa(double taxa) {
+		this.taxa = taxa;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;course_exercicioFixacao&apos; to &apos;course_enum_composicaoDeClasses_exercicioFixacao&apos;&#x0D;&#x0A;- Original element: &apos;course_exercicioFixacao&apos;&#x0D;&#x0A;- Renamed element: &apos;course_exercicioFixacao&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;course_exercicioFixacao&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=course_exercicioFixacao" name="course_enum_composicaoDeClasses_exercicioFixacao" references="true" stamp="1672231351790" version="1.0"/>
+</session>
