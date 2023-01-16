@@ -40,7 +40,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="entities.UsedProduct"/>
     <fullyQualifiedTypeName name="entities.ImportedProduct"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -56,4 +55,6 @@
     <fullyQualifiedTypeName name="entities.Fisica"/>
     <fullyQualifiedTypeName name="entities.Juridica"/>
     <fullyQualifiedTypeName name="entities.Contribuinte"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="entities.DadosPessoais"/>
 </qualifiedTypeNameHistroy>

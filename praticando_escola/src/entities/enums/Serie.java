@@ -1,0 +1,8 @@
+package entities.enums;
+
+public enum Serie {
+
+	BERCARIO, JARDIM_1, JARDIM_2, FUND_ANO_1, FUND_ANO_2, FUND_ANO_3, FUND_ANO_4, FUND_ANO_5, FUND_ANO_6, FUND_ANO_7,
+	FUND_ANO_8, FUND_ANO_9, MED_ANO_1, MED_ANO_2, MED_ANO_3;
+
+}
